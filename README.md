@@ -1,4 +1,8 @@
 # 空污污流流 - Taiwan PM2.5 IDW Diagram Map on Windyty
+空污污流流是一套在 Windy.com 上繪製台灣空污地圖的小程式，透過在 Windy.com 植入 JS code 來操作 Leaflet 物件來進行繪製。原專案[在此](https://github.com/meisheep/taiwan-pm2_5-map-on-windyty)，應社群需求另外開發此 IDW Diagram 版本。
+
+## 資料來源
+[PM2.5開放資料入口網站](https://pm25.lass-net.org/)
 
 ## 如何使用
 
