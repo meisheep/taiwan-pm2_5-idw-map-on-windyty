@@ -12,9 +12,9 @@
 ```js
 {const injection = document.createElement('script'); injection.src = 'https://meisheep.github.io/taiwan-pm2_5-idw-map-on-windyty/dist/bundle.js'; document.body.appendChild(injection);}
 ```
-### 加入 Chrome 書籤
-1. 新增一個 Chrome 書籤（Bookmark）
-2. 名稱自訂，標籤貼上以下內容：
+### 加入瀏覽器書籤
+1. 打開瀏覽器並新增一個書籤（Bookmark）
+2. 名稱自訂，網址貼上以下內容：
 ```
 javascript:(function() {const injection = document.createElement('script'); injection.src = 'https://meisheep.github.io/taiwan-pm2_5-idw-map-on-windyty/dist/bundle.js'; document.body.appendChild(injection);})()
 ```
