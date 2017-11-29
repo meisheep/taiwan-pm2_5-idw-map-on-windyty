@@ -12,7 +12,7 @@
 1. 新增一個 Chrome 書籤（Bookmark）
 2. 名稱自訂，標籤貼上以下內容：
 ```
-javascript:{const injection = document.createElement('script'); injection.src = 'https://meisheep.github.io/taiwan-pm2_5-idw-map-on-windyty/dist/bundle.js'; document.body.appendChild(injection);}
+javascript:(function() {const injection = document.createElement('script'); injection.src = 'https://meisheep.github.io/taiwan-pm2_5-idw-map-on-windyty/dist/bundle.js'; document.body.appendChild(injection);})()
 ```
 3. 製作一次書籤後，每次只要進入 [Windy](https://windy.com) 後，點擊書籤即可自動執行程式碼。
 
